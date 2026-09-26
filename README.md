@@ -1,6 +1,6 @@
 # hmrs-tech.github.io
 
-Public pages of hmrs.tech apps, published with GitHub Pages at https://hmrs-tech.github.io/.
+Public pages of hmmrs apps, published with GitHub Pages at https://hmmrs.dev/ (the custom domain is set in [`CNAME`](CNAME)).
 
 Each app has its own folder:
 

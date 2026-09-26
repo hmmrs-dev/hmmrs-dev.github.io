@@ -1,8 +1,8 @@
 ---
-title: hmrs.tech
+title: hmmrs
 ---
 
-# hmrs.tech
+# hmmrs
 
 ## Apps
 

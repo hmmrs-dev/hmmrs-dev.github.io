@@ -1,10 +1,10 @@
-title: hmrs.tech
-description: Apps by hmrs.tech.
-url: https://hmrs-tech.github.io
+title: hmmrs
+description: Apps by hmmrs.
+url: https://hmmrs.dev
 baseurl: ""
 
 # Public contact for the privacy policies and the Play Store listings
-contact_email: hmrs-tech@gmail.com
+contact_email: support@hmmrs.dev
 developer: Enrico Martelli
 
 defaults:
