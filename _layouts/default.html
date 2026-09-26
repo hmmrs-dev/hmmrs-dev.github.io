@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  {%- if page.favicon %}
+  <link rel="icon" href="{{ page.favicon | relative_url }}" sizes="any">
+  {%- endif %}
+  {%- if page.apple_touch_icon %}
+  <link rel="apple-touch-icon" href="{{ page.apple_touch_icon | relative_url }}">
+  {%- endif %}
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {%- if page.alt_url %}
+  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="{{ page.alt_lang }}" href="{{ page.alt_url | absolute_url }}">
+  {%- endif %}
+</head>
+<body>
+  <header>
+    <a class="brand" href="{{ page.home_url | default: '/' | relative_url }}">
+      {%- if page.brand_icon %}
+      <img src="{{ page.brand_icon | relative_url }}" alt="" width="40" height="40">
+      {%- endif %}
+      <span>{{ page.brand | default: site.title }}</span>
+    </a>
+    {%- if page.alt_url %}
+    <a class="language" href="{{ page.alt_url | relative_url }}" hreflang="{{ page.alt_lang }}" lang="{{ page.alt_lang }}">{{ page.alt_label }}</a>
+    {%- endif %}
+  </header>
+  <main>
+{{ content }}
+  </main>
+  <footer>
+    {%- if page.privacy_url %}
+    <a href="{{ page.privacy_url | relative_url }}">{{ page.privacy_label }}</a>
+    ·
+    {%- endif %}
+    <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+  </footer>
+</body>
+</html>

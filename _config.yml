@@ -1,0 +1,25 @@
+title: hmrs.tech
+description: Apps by hmrs.tech.
+url: https://hmrs-tech.github.io
+baseurl: ""
+
+# Public contact for the privacy policies and the Play Store listings
+contact_email: hmrs-tech@gmail.com
+developer: Enrico Martelli
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: en
+  - scope:
+      path: pointbuddy
+    values:
+      brand: PointBuddy
+      brand_icon: /pointbuddy/assets/icon-192.png
+      favicon: /pointbuddy/assets/favicon.ico
+      apple_touch_icon: /pointbuddy/assets/apple-touch-icon.png
+
+exclude:
+  - README.md
