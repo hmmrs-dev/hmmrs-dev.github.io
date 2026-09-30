@@ -7,7 +7,6 @@ alt_lang: en
 alt_url: /turno/privacy/
 alt_label: English
 privacy_url: /turno/it/privacy/
-redirect_from: /pointbuddy/it/privacy/
 privacy_label: Informativa sulla privacy
 ---
 

@@ -3,10 +3,6 @@ description: Apps by hmmrs.dev.
 url: https://hmmrs.dev
 baseurl: ""
 
-# Pages list their old addresses in redirect_from
-plugins:
-  - jekyll-redirect-from
-
 # Public contact for the privacy policies and the Play Store listings
 contact_email: support@hmmrs.dev
 developer: Enrico Martelli

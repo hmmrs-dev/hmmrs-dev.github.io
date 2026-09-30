@@ -9,10 +9,6 @@ Each app has its own folder:
 | Turno | Home | [`turno/index.md`](turno/index.md) | [`turno/it/index.md`](turno/it/index.md) |
 | Turno | Privacy policy | [`turno/privacy/index.md`](turno/privacy/index.md) | [`turno/it/privacy/index.md`](turno/it/privacy/index.md) |
 
-Turno was called PointBuddy, and its pages were in `/pointbuddy/`: each page lists its old address in
-`redirect_from` ([jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from)), because
-released builds of the app open the old privacy policy.
-
 The app opens its privacy policy in its current language, so the URLs of the two privacy pages
 (`/turno/privacy/` and `/turno/it/privacy/`) must not change without updating the app. When a policy
 changes, update both languages and the "last updated" date at the top of each.
