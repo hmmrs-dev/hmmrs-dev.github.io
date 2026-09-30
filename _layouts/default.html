@@ -21,6 +21,7 @@
   {%- endif %}
 </head>
 <body{% if page.theme %} class="{{ page.theme }}"{% endif %}>
+  {%- unless page.hide_header %}
   <header>
     <a class="brand" href="{{ page.home_url | default: '/' | relative_url }}">
       {%- if page.brand_icon %}
@@ -32,6 +33,7 @@
     <a class="language" href="{{ page.alt_url | relative_url }}" hreflang="{{ page.alt_lang }}" lang="{{ page.alt_lang }}">{{ page.alt_label }}</a>
     {%- endif %}
   </header>
+  {%- endunless %}
   <main>
 {{ content }}
   </main>

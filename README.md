@@ -18,8 +18,8 @@ at the top of each.
 The contact email and the developer name are set once, in [`_config.yml`](_config.yml), which also
 sets the name, icons and theme shared by all the pages of each app.
 
-The home page is black and white, and shows each app as a card in the app's own theme, so it's easy
-to recognize. A theme is a stylesheet that restyles the elements with its class: Turno's pages
-and its card use the app's *Tavola* theme ([`pointbuddy/assets/tavola.css`](pointbuddy/assets/tavola.css)),
+The home page is black and white, and shows each app as a tile in the app's own theme, so it's easy
+to recognize: the top of the tile shows the icon on the theme's `--art` color. A theme is a
+stylesheet that restyles the elements with its class: Turno's pages and its tile use the app's *Tavola* theme ([`pointbuddy/assets/tavola.css`](pointbuddy/assets/tavola.css)),
 with its fonts, Fraunces and Figtree, taken from the app and licensed under the SIL Open Font License
 (see `pointbuddy/assets/fonts`). The icons are exported from the app's icon generator.
