@@ -1,4 +1,7 @@
-/* Tavola, the theme of the Turno app: felt, walnut, brass and score pad paper */
+/*
+ * Tavola, the theme of the Turno app: felt, walnut, brass and score pad paper. It applies to the
+ * elements with the tavola class: Turno's pages, and its card on the home page.
+ */
 
 @font-face {
   font-family: "Fraunces";
@@ -14,17 +17,18 @@
   font-display: swap;
 }
 
-:root {
+.tavola {
   --text: #1f1b16;
   --muted: #4e463c;
   --background: #faf6ee;
   --accent: #2f5d50;
   --divider: #d2c6b6;
   --highlight: rgb(224 176 74 / 45%);
+  font-family: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  .tavola {
     --text: #ede0d4;
     --muted: #d2c6b6;
     --background: #1c1714;
@@ -34,25 +38,23 @@
   }
 }
 
-body {
-  font-family: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-}
-
-h1,
-h2,
-.brand {
+.tavola h1,
+.tavola h2,
+.tavola .brand,
+.tavola .app-name {
   font-family: "Fraunces", Georgia, serif;
   font-weight: 700;
 }
 
 /* A brass highlighter across the title, like the players' names in the app */
-h1 {
+.tavola h1,
+.tavola .app-name {
   text-decoration: underline var(--highlight);
   text-decoration-thickness: 0.4em;
   text-underline-offset: -0.25em;
   text-decoration-skip-ink: none;
 }
 
-strong {
+.tavola strong {
   font-weight: 700;
 }

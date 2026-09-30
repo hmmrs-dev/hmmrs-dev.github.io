@@ -1,19 +1,19 @@
 :root {
   color-scheme: light dark;
-  --text: #1c1b1f;
-  --muted: #5f5b66;
-  --background: #fdfbff;
-  --accent: #6750a4;
-  --divider: #e0dce6;
+  --text: #111111;
+  --muted: #5c5c5c;
+  --background: #ffffff;
+  --accent: #000000;
+  --divider: #e2e2e2;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #e6e1e5;
-    --muted: #b0aab8;
-    --background: #141218;
-    --accent: #d0bcff;
-    --divider: #36323c;
+    --text: #f0f0f0;
+    --muted: #a3a3a3;
+    --background: #000000;
+    --accent: #ffffff;
+    --divider: #2e2e2e;
   }
 }
 
@@ -61,10 +61,30 @@ h2 {
   margin-top: 2rem;
 }
 
+/* Each app is a card in the app's own theme, set by its class, so it's easy to recognize */
+.apps {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
 .app {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--divider);
+  border-radius: 1.5rem;
+  color: var(--text);
+  background: var(--background);
+}
+
+.app:hover,
+.app:focus-within {
+  border-color: var(--accent);
 }
 
 .app img {
@@ -72,12 +92,31 @@ h2 {
   border-radius: 25%;
 }
 
-.app p {
+.app-name {
   margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
 
-.app .secondary {
-  display: block;
+/* The whole card opens the app's page */
+.app-name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app-name a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+
+.app p {
+  margin: 0.25rem 0;
+}
+
+.app-secondary {
+  position: relative;
   font-size: 0.9rem;
 }
 
