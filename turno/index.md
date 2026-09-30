@@ -2,11 +2,12 @@
 lang: en
 title: Turno – Score keeper for tabletop games
 description: The score keeper you bring to every game night, with a score pad, turns, timers, rankings and hands-free voice scoring.
-home_url: /pointbuddy/
+home_url: /turno/
 alt_lang: it
-alt_url: /pointbuddy/it/
+alt_url: /turno/it/
 alt_label: Italiano
-privacy_url: /pointbuddy/privacy/
+privacy_url: /turno/privacy/
+redirect_from: /pointbuddy/
 privacy_label: Privacy policy
 ---
 

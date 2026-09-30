@@ -2,11 +2,12 @@
 lang: it
 title: Informativa sulla privacy – Turno
 description: Come l'app Turno gestisce i tuoi dati.
-home_url: /pointbuddy/it/
+home_url: /turno/it/
 alt_lang: en
-alt_url: /pointbuddy/privacy/
+alt_url: /turno/privacy/
 alt_label: English
-privacy_url: /pointbuddy/it/privacy/
+privacy_url: /turno/it/privacy/
+redirect_from: /pointbuddy/it/privacy/
 privacy_label: Informativa sulla privacy
 ---
 

@@ -2,7 +2,7 @@
 title: hmmrs.dev
 theme: home
 hide_header: true
-stylesheets: [/pointbuddy/assets/tavola.css]
+stylesheets: [/turno/assets/tavola.css]
 ---
 
 <section class="hero">
@@ -15,13 +15,13 @@ stylesheets: [/pointbuddy/assets/tavola.css]
 <ul class="apps">
   <li class="app tavola">
     <div class="app-art">
-      <img src="{{ '/pointbuddy/assets/icon-192.png' | relative_url }}" alt="" width="96" height="96">
+      <img src="{{ '/turno/assets/icon-192.png' | relative_url }}" alt="" width="96" height="96">
     </div>
     <div class="app-body">
-      <h3 class="app-name"><a href="{{ '/pointbuddy/' | relative_url }}">Turno</a></h3>
+      <h3 class="app-name"><a href="{{ '/turno/' | relative_url }}">Turno</a></h3>
       <p>Your companion at the game table, to keep score in tabletop games.</p>
       <p class="app-meta">Android · Coming soon to Google Play</p>
-      <a class="app-secondary" href="{{ '/pointbuddy/privacy/' | relative_url }}">Privacy policy</a>
+      <a class="app-secondary" href="{{ '/turno/privacy/' | relative_url }}">Privacy policy</a>
     </div>
   </li>
   <li class="app app-placeholder">

@@ -3,6 +3,10 @@ description: Apps by hmmrs.dev.
 url: https://hmmrs.dev
 baseurl: ""
 
+# Pages list their old addresses in redirect_from
+plugins:
+  - jekyll-redirect-from
+
 # Public contact for the privacy policies and the Play Store listings
 contact_email: support@hmmrs.dev
 developer: Enrico Martelli
@@ -14,14 +18,14 @@ defaults:
       layout: default
       lang: en
   - scope:
-      path: pointbuddy
+      path: turno
     values:
       brand: Turno
       theme: tavola
-      stylesheets: [/pointbuddy/assets/tavola.css]
-      brand_icon: /pointbuddy/assets/icon-192.png
-      favicon: /pointbuddy/assets/favicon.ico
-      apple_touch_icon: /pointbuddy/assets/apple-touch-icon.png
+      stylesheets: [/turno/assets/tavola.css]
+      brand_icon: /turno/assets/icon-192.png
+      favicon: /turno/assets/favicon.ico
+      apple_touch_icon: /turno/assets/apple-touch-icon.png
 
 exclude:
   - README.md
