@@ -1,5 +1,5 @@
-title: hmmrs
-description: Apps by hmmrs.
+title: hmmrs.dev
+description: Apps by hmmrs.dev.
 url: https://hmmrs.dev
 baseurl: ""
 
@@ -16,7 +16,8 @@ defaults:
   - scope:
       path: pointbuddy
     values:
-      brand: PointBuddy
+      brand: Turno
+      stylesheet: /pointbuddy/assets/tavola.css
       brand_icon: /pointbuddy/assets/icon-192.png
       favicon: /pointbuddy/assets/favicon.ico
       apple_touch_icon: /pointbuddy/assets/apple-touch-icon.png

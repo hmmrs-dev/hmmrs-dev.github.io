@@ -1,0 +1,58 @@
+/* Tavola, the theme of the Turno app: felt, walnut, brass and score pad paper */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("fonts/fraunces.woff2") format("woff2");
+  font-weight: 400 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/figtree.woff2") format("woff2");
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+:root {
+  --text: #1f1b16;
+  --muted: #4e463c;
+  --background: #faf6ee;
+  --accent: #2f5d50;
+  --divider: #d2c6b6;
+  --highlight: rgb(224 176 74 / 45%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #ede0d4;
+    --muted: #d2c6b6;
+    --background: #1c1714;
+    --accent: #9ed1bd;
+    --divider: #4e463c;
+    --highlight: rgb(224 176 74 / 35%);
+  }
+}
+
+body {
+  font-family: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+h1,
+h2,
+.brand {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 700;
+}
+
+/* A brass highlighter across the title, like the players' names in the app */
+h1 {
+  text-decoration: underline var(--highlight);
+  text-decoration-thickness: 0.4em;
+  text-underline-offset: -0.25em;
+  text-decoration-skip-ink: none;
+}
+
+strong {
+  font-weight: 700;
+}

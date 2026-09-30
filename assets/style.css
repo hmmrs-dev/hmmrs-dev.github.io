@@ -61,6 +61,26 @@ h2 {
   margin-top: 2rem;
 }
 
+.app {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.app img {
+  flex: none;
+  border-radius: 25%;
+}
+
+.app p {
+  margin: 0;
+}
+
+.app .secondary {
+  display: block;
+  font-size: 0.9rem;
+}
+
 .updated {
   color: var(--muted);
 }

@@ -1,7 +1,7 @@
 ---
 lang: it
-title: Informativa sulla privacy – PointBuddy
-description: Come l'app PointBuddy gestisce i tuoi dati.
+title: Informativa sulla privacy – Turno
+description: Come l'app Turno gestisce i tuoi dati.
 home_url: /pointbuddy/it/
 alt_lang: en
 alt_url: /pointbuddy/privacy/
@@ -12,18 +12,18 @@ privacy_label: Informativa sulla privacy
 
 # Informativa sulla privacy
 
-<p class="updated">Ultimo aggiornamento: 26 settembre 2026</p>
+<p class="updated">Ultimo aggiornamento: 30 settembre 2026</p>
 
-PointBuddy è un'app Android per tenere il punteggio nei giochi da tavolo, sviluppata da
+Turno è un'app Android per tenere il punteggio nei giochi da tavolo, sviluppata da
 {{ site.developer }}. Questa informativa spiega quali dati gestisce l'app e in che modo.
 
-**In breve:** PointBuddy non ha account, pubblicità né strumenti di analisi, e non uso alcun server.
+**In breve:** Turno non ha account, pubblicità né strumenti di analisi, e non uso alcun server.
 Le tue partite restano sul tuo dispositivo e io non posso accedervi.
 
 ## Dati salvati sul dispositivo
 
 L'app salva le tue partite (nomi, punteggi, cronologia dei punti e timer), i giocatori, i gruppi di
-giocatori, i preset di regole, le impostazioni (come tema e lingua) e se PointBuddy Pro è sbloccato.
+giocatori, i preset di regole, le impostazioni (come tema e lingua) e se Turno Pro è sbloccato.
 Tutto viene conservato nello spazio privato dell'app sul tuo dispositivo.
 
 Se il backup è attivo sul tuo dispositivo, Android include questi dati nel backup sul tuo account
@@ -33,7 +33,7 @@ disattivare il backup dalle impostazioni del dispositivo.
 
 ## Microfono e punteggio vocale
 
-Il punteggio vocale (incluso in PointBuddy Pro) usa il microfono solo dopo che hai concesso
+Il punteggio vocale (incluso in Turno Pro) usa il microfono solo dopo che hai concesso
 l'autorizzazione, e solo mentre lo stai usando. L'app passa l'audio al servizio di riconoscimento
 vocale del dispositivo (di solito fornito da Google), che lo trasforma in testo. A seconda del
 dispositivo e delle sue impostazioni, questo servizio può elaborare l'audio sui server di Google,
@@ -51,7 +51,7 @@ cui punti il telefono. Tutto avviene sul dispositivo: l'app non chiede né usa l
 
 ## Acquisti
 
-PointBuddy Pro si acquista tramite Google Play, che gestisce interamente il pagamento: l'app non vede
+Turno Pro si acquista tramite Google Play, che gestisce interamente il pagamento: l'app non vede
 mai i tuoi dati di pagamento. L'app chiede a Google Play solo se hai acquistato Pro, per sbloccarlo,
 anche dopo una reinstallazione o su un nuovo dispositivo. Gli acquisti sono regolati dalle
 [norme sulla privacy di Google](https://policies.google.com/privacy?hl=it).
@@ -76,12 +76,12 @@ di una partita condivisa, l'app lo legge solo per importare la partita.
 
 ## Cosa non faccio
 
-PointBuddy non richiede un account, non mostra pubblicità e non usa strumenti di analisi o
+Turno non richiede un account, non mostra pubblicità e non usa strumenti di analisi o
 tracciamento. Non raccolgo, non vendo e non condivido i tuoi dati personali.
 
 ## Minori
 
-PointBuddy non è rivolta ai minori di 13 anni, e non raccolgo consapevolmente dati personali di
+L'app non è rivolta ai minori di 13 anni, e non raccolgo consapevolmente dati personali di
 nessuno, minori inclusi.
 
 ## Le tue scelte
