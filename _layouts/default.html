@@ -12,15 +12,15 @@
   <link rel="apple-touch-icon" href="{{ page.apple_touch_icon | relative_url }}">
   {%- endif %}
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
-  {%- if page.stylesheet %}
-  <link rel="stylesheet" href="{{ page.stylesheet | relative_url }}">
-  {%- endif %}
+  {%- for stylesheet in page.stylesheets %}
+  <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+  {%- endfor %}
   {%- if page.alt_url %}
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
   <link rel="alternate" hreflang="{{ page.alt_lang }}" href="{{ page.alt_url | absolute_url }}">
   {%- endif %}
 </head>
-<body>
+<body{% if page.theme %} class="{{ page.theme }}"{% endif %}>
   <header>
     <a class="brand" href="{{ page.home_url | default: '/' | relative_url }}">
       {%- if page.brand_icon %}

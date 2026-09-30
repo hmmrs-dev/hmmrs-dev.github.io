@@ -17,7 +17,8 @@ defaults:
       path: pointbuddy
     values:
       brand: Turno
-      stylesheet: /pointbuddy/assets/tavola.css
+      theme: tavola
+      stylesheets: [/pointbuddy/assets/tavola.css]
       brand_icon: /pointbuddy/assets/icon-192.png
       favicon: /pointbuddy/assets/favicon.ico
       apple_touch_icon: /pointbuddy/assets/apple-touch-icon.png
