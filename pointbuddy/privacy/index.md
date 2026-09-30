@@ -1,7 +1,7 @@
 ---
 lang: en
-title: Privacy policy – PointBuddy
-description: How the PointBuddy app handles your data.
+title: Privacy policy – Turno
+description: How the Turno app handles your data.
 home_url: /pointbuddy/
 alt_lang: it
 alt_url: /pointbuddy/it/privacy/
@@ -12,18 +12,18 @@ privacy_label: Privacy policy
 
 # Privacy policy
 
-<p class="updated">Last updated: 26 September 2026</p>
+<p class="updated">Last updated: 30 September 2026</p>
 
-PointBuddy is an Android app to keep score in tabletop games, developed by {{ site.developer }}
+Turno is an Android app to keep score in tabletop games, developed by {{ site.developer }}
 ("I", "me"). This policy explains what data the app handles and how.
 
-**In short:** PointBuddy has no accounts, no ads and no analytics, and I don't run any servers. Your
+**In short:** Turno has no accounts, no ads and no analytics, and I don't run any servers. Your
 games stay on your device, and I have no access to them.
 
 ## Data stored on your device
 
 The app stores your games (names, scores, score history and timers), players, player groups, rule
-presets, your settings (such as theme and language) and whether PointBuddy Pro is unlocked. All of
+presets, your settings (such as theme and language) and whether Turno Pro is unlocked. All of
 this is kept in the app's private storage on your device.
 
 If backup is turned on for your device, Android includes this data in your device backup to your
@@ -33,7 +33,7 @@ your device settings.
 
 ## Microphone and voice scoring
 
-Voice scoring (part of PointBuddy Pro) uses the microphone only after you grant the permission, and
+Voice scoring (part of Turno Pro) uses the microphone only after you grant the permission, and
 only while you're using it. The app passes the audio to your device's speech recognition service
 (usually provided by Google), which turns it into text. Depending on your device and its settings,
 that service may process the audio on Google's servers, under
@@ -50,7 +50,7 @@ This happens on your device only: the app doesn't ask for or use your location.
 
 ## Purchases
 
-PointBuddy Pro is bought through Google Play, which handles the payment entirely: the app never sees
+Turno Pro is bought through Google Play, which handles the payment entirely: the app never sees
 your payment details. The app only asks Google Play whether you bought Pro, to unlock it, including
 after a reinstall or on a new device. Purchases are covered by
 [Google's privacy policy](https://policies.google.com/privacy).
@@ -74,12 +74,12 @@ app reads it only to import the game.
 
 ## What I don't do
 
-PointBuddy doesn't require an account, shows no ads, and has no analytics or tracking. I don't
+Turno doesn't require an account, shows no ads, and has no analytics or tracking. I don't
 collect, sell or share your personal data.
 
 ## Children
 
-PointBuddy isn't directed at children under 13, and I don't knowingly collect personal data from
+Turno isn't directed at children under 13, and I don't knowingly collect personal data from
 anyone, including children.
 
 ## Your choices

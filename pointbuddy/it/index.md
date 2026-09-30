@@ -1,7 +1,7 @@
 ---
 lang: it
-title: PointBuddy – Segnapunti per giochi da tavolo
-description: Tieni il punteggio dei tuoi giochi da tavolo preferiti, con classifiche, rating Elo e punteggio vocale a mani libere.
+title: Turno – Segnapunti per giochi da tavolo
+description: Il segnapunti da portare a ogni serata di giochi, con blocchetto dei punti, turni, timer, classifiche e punteggio vocale a mani libere.
 home_url: /pointbuddy/it/
 alt_lang: en
 alt_url: /pointbuddy/
@@ -10,13 +10,18 @@ privacy_url: /pointbuddy/it/privacy/
 privacy_label: Informativa sulla privacy
 ---
 
-# Tieni il punteggio dei tuoi giochi da tavolo preferiti
+# Il tuo compagno al tavolo da gioco
 
-PointBuddy tiene traccia di punti, turni e timer attorno al tavolo, così puoi pensare solo a giocare.
+Che sia una partita veloce in pausa pranzo con i colleghi o una lunga serata con gli amici, Turno
+tiene traccia di punti, turni e tempo, così tutti possono pensare solo a giocare.
 
-- **Punteggi e turni** con cronologia completa e annullamento, regole e preset personalizzati.
-- **Modalità bussola:** punta il telefono verso un giocatore per assegnargli il turno.
+- **Blocchetto dei punti:** aggiungi punti con un tocco, o di qualsiasi valore. Ogni punteggio resta
+  scritto nella cronologia, e si può annullare quando qualcuno sbaglia a contare.
+- **Turni e timer:** punta il telefono verso un giocatore per assegnargli il turno, con un timer del
+  turno o un cronometro.
+- **Il solito tavolo:** i giocatori salvati mantengono il loro colore, e i gruppi preparano il
+  tavolo con un tocco.
 - **Classifiche e rating Elo** tra le tue partite, per regolamento o gruppo di giocatori.
-- **PointBuddy Pro:** punteggio vocale a mani libere e preset curati per i giochi più popolari.
+- **Turno Pro:** punteggio vocale a mani libere e preset curati per i giochi più popolari.
 
 Presto disponibile su Google Play.
