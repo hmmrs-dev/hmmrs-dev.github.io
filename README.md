@@ -1,4 +1,4 @@
-# hmrs-tech.github.io
+# hmmrs-dev.github.io
 
 Public pages of hmmrs.dev apps, published with GitHub Pages at https://hmmrs.dev/ (the custom domain is set in [`CNAME`](CNAME)).
 
