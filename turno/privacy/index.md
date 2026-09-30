@@ -2,11 +2,12 @@
 lang: en
 title: Privacy policy – Turno
 description: How the Turno app handles your data.
-home_url: /pointbuddy/
+home_url: /turno/
 alt_lang: it
-alt_url: /pointbuddy/it/privacy/
+alt_url: /turno/it/privacy/
 alt_label: Italiano
-privacy_url: /pointbuddy/privacy/
+privacy_url: /turno/privacy/
+redirect_from: /pointbuddy/privacy/
 privacy_label: Privacy policy
 ---
 

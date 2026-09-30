@@ -2,11 +2,12 @@
 lang: it
 title: Turno – Segnapunti per giochi da tavolo
 description: Il segnapunti da portare a ogni serata di giochi, con blocchetto dei punti, turni, timer, classifiche e punteggio vocale a mani libere.
-home_url: /pointbuddy/it/
+home_url: /turno/it/
 alt_lang: en
-alt_url: /pointbuddy/
+alt_url: /turno/
 alt_label: English
-privacy_url: /pointbuddy/it/privacy/
+privacy_url: /turno/it/privacy/
+redirect_from: /pointbuddy/it/
 privacy_label: Informativa sulla privacy
 ---
 
