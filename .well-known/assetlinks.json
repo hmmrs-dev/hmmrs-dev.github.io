@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "dev.hmmrs.turno",
+      "sha256_cert_fingerprints": [
+        "7C:D0:EE:E7:B7:65:5D:86:04:35:21:92:99:F1:CA:DE:9D:33:C7:16:12:75:FF:EA:A8:69:FD:2E:E9:B3:D3:5D",
+        "14:3D:9E:1A:27:B1:7D:7B:1A:64:EE:86:6E:0D:42:CF:64:72:66:43:98:00:19:7B:68:0F:0B:04:EC:1D:BA:07",
+        "F1:FD:19:02:A3:E1:2A:C5:FF:CE:7F:00:6F:60:DC:BF:21:6A:5D:37:71:57:80:F7:70:87:3F:52:C2:AE:21:A9"
+      ]
+    }
+  }
+]
