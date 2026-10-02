@@ -23,4 +23,6 @@ track of points, turns and time, so everyone can focus on playing.
 - **Rankings & Elo ratings** across your games, by ruleset or group of players.
 - **Turno Pro:** hands-free voice scoring and curated presets for popular games.
 
+Turno is made by {{ site.developer }}, from an original idea by Diego Romani.
+
 Coming soon to Google Play.

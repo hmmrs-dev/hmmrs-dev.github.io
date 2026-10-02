@@ -24,4 +24,6 @@ tiene traccia di punti, turni e tempo, così tutti possono pensare solo a giocar
 - **Classifiche e rating Elo** tra le tue partite, per regolamento o gruppo di giocatori.
 - **Turno Pro:** punteggio vocale a mani libere e preset curati per i giochi più popolari.
 
+Turno è sviluppato da {{ site.developer }}, da un'idea originale di Diego Romani.
+
 Presto disponibile su Google Play.
