@@ -23,6 +23,9 @@ defaults:
       favicon: /turno/assets/favicon.ico
       apple_touch_icon: /turno/assets/apple-touch-icon.png
 
+plugins:
+  - jekyll-sitemap
+
 include:
   - .well-known
 
