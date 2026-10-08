@@ -12,13 +12,14 @@ privacy_label: Informativa sulla privacy
 
 # Informativa sulla privacy
 
-<p class="updated">Ultimo aggiornamento: 30 settembre 2026</p>
+<p class="updated">Ultimo aggiornamento: 8 ottobre 2026</p>
 
 Turno è un'app Android per tenere il punteggio nei giochi da tavolo, sviluppata da
 {{ site.developer }}. Questa informativa spiega quali dati gestisce l'app e in che modo.
 
 **In breve:** Turno non ha account, pubblicità né strumenti di analisi, e non uso alcun server.
-Le tue partite restano sul tuo dispositivo e io non posso accedervi.
+Le tue partite restano sul tuo dispositivo, a meno che tu non scelga di sincronizzarle tramite una
+cartella, e io non posso accedervi.
 
 ## Dati salvati sul dispositivo
 
@@ -62,6 +63,54 @@ Quando condividi una partita, l'app crea un file con il suo nome, i nomi dei gio
 la cronologia, e lo passa all'app che scegli. Viene inviato solo dove decidi tu. Quando apri il file
 di una partita condivisa, l'app lo legge solo per importare la partita.
 
+## Cartelle sincronizzate
+
+Le cartelle sincronizzate (incluse in Turno Pro) permettono ai giocatori di ricevere le partite
+degli altri tramite una cartella condivisa. Ogni cartella sincronizzata è una che scegli tu: sul
+dispositivo o nel tuo Google Drive. Ogni volta che apri o lasci l'app, esci da una partita finita o
+sincronizzi a mano, Turno:
+
+- salva nella cartella le tue partite finite, quelle delle regole e dei gruppi che hai scelto per
+  la cartella, ognuna in un file con il suo nome, la data, le regole, il nome del gruppo, i nomi dei
+  giocatori, i punteggi e la cronologia;
+- aggiunge all'app le partite che trova nella cartella, salvate lì dagli altri giocatori.
+
+Chiunque possa aprire la cartella può leggere le partite che contiene, come i giocatori con cui la
+condividi. Se un'app di cloud storage o di sincronizzazione tiene sincronizzata una cartella del
+dispositivo, è quell'app a caricarne i file, secondo la sua informativa sulla privacy.
+
+Turno non modifica né elimina mai i file di una cartella sincronizzata: una partita che elimini
+dall'app resta nella cartella, e una cartella sincronizzata che rimuovi dall'app resta com'è, con i
+suoi file. L'elenco delle cartelle sincronizzate è conservato sul dispositivo, insieme all'account
+Google di ogni cartella su Google Drive.
+
+## Google Drive
+
+Se scegli una cartella sincronizzata su Google Drive, l'app chiede l'accesso al tuo Drive tramite
+la schermata di consenso di Google, poi comunica con Google Drive direttamente dal dispositivo.
+Niente passa da me, e io non posso accedere al tuo Drive né ai tuoi file.
+
+Google permette a un'app di leggere i file scritti da altre copie della stessa app, come le partite
+che gli altri giocatori salvano in una cartella condivisa con te, solo con l'accesso a tutto il tuo
+Drive: per questo la schermata di consenso lo richiede. L'app lo usa solo per le cartelle
+sincronizzate:
+
+- elenca le cartelle del tuo Drive e quelle condivise con te, per sceglierne una, e crea una
+  cartella quando glielo chiedi;
+- legge e scrive file di partite solo nelle cartelle che hai scelto;
+- legge l'indirizzo email del tuo account Google, per usare l'account giusto per ogni cartella, e lo
+  conserva solo sul dispositivo.
+
+Non apre, non modifica e non elimina nessun altro file del tuo Drive. L'accesso che concedi è
+conservato da Google Play Services sul dispositivo, non dall'app. Puoi interromperlo in qualsiasi
+momento: rimuovi la cartella dall'app, e rimuovi l'accesso di Turno dal tuo
+[Account Google](https://myaccount.google.com/connections).
+
+L'uso e il trasferimento ad altre app delle informazioni ricevute dalle API di Google da parte di
+Turno rispetteranno le
+[Norme relative ai dati utente dei servizi API di Google](https://developers.google.com/terms/api-services-user-data-policy?hl=it),
+inclusi i requisiti di utilizzo limitato.
+
 ## Servizi Google usati dall'app
 
 - **ML Kit**, che esegue Gemini Nano sul dispositivo. Secondo la
@@ -71,6 +120,8 @@ di una partita condivisa, l'app lo legge solo per importare la partita.
   di prestazioni, codici di errore e le lingue configurate. Queste informazioni sono cifrate durante
   la trasmissione e non vengono condivise con terze parti. Non includono la tua voce, il testo
   riconosciuto né le tue partite.
+- **Google Drive** e **Google Play Services**, solo se scegli una cartella sincronizzata su Google
+  Drive, per ottenere il tuo consenso e raggiungere la cartella, come descritto sopra.
 - **Google Play Billing** e **aggiornamenti in-app di Google Play**, che comunicano con l'app Google
   Play Store sul dispositivo per gestire acquisti e aggiornamenti.
 
@@ -89,6 +140,8 @@ nessuno, minori inclusi.
 - Puoi revocare l'autorizzazione al microfono in qualsiasi momento dalle impostazioni del
   dispositivo.
 - Puoi eliminare partite, giocatori e preset dall'app.
+- Puoi rimuovere una cartella sincronizzata dall'app, e rimuovere l'accesso di Turno al tuo Google
+  Drive dal tuo account Google.
 - Disinstallando l'app, o cancellandone i dati dalle impostazioni del dispositivo, tutti i suoi dati
   vengono eliminati dal dispositivo. Le copie di backup si possono eliminare dalle impostazioni di
   backup del tuo account Google.
