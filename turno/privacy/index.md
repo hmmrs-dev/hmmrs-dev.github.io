@@ -12,7 +12,7 @@ privacy_label: Privacy policy
 
 # Privacy policy
 
-<p class="updated">Last updated: 8 October 2026</p>
+<p class="updated">Last updated: 12 October 2026</p>
 
 Turno is an Android app to keep score in tabletop games, developed by {{ site.developer }}
 ("I", "me"). This policy explains what data the app handles and how.
@@ -76,10 +76,11 @@ Anyone who can open the folder can read the games in it, such as the players you
 a cloud storage or sync app keeps a folder of your device in sync, that app uploads its files, under
 its own privacy policy.
 
-Turno never changes or deletes the files in a sync folder: a game you delete in the app stays in the
-folder, and a sync folder you remove from the app stays as it is, with its files. The list of your
-sync folders is kept on your device, together with the Google account of each folder in Google
-Drive.
+Turno never deletes the files in a sync folder: a game you delete in the app stays in the folder,
+and a sync folder you remove from the app stays as it is, with its files. It only changes the file
+of a game when that game changes in the app, so that the change reaches the other players. The list
+of your sync folders is kept on your device, together with the Google account of each folder in
+Google Drive.
 
 ## Google Drive
 

@@ -12,7 +12,7 @@ privacy_label: Informativa sulla privacy
 
 # Informativa sulla privacy
 
-<p class="updated">Ultimo aggiornamento: 8 ottobre 2026</p>
+<p class="updated">Ultimo aggiornamento: 12 ottobre 2026</p>
 
 Turno è un'app Android per tenere il punteggio nei giochi da tavolo, sviluppata da
 {{ site.developer }}. Questa informativa spiega quali dati gestisce l'app e in che modo.
@@ -79,10 +79,11 @@ Chiunque possa aprire la cartella può leggere le partite che contiene, come i g
 condividi. Se un'app di cloud storage o di sincronizzazione tiene sincronizzata una cartella del
 dispositivo, è quell'app a caricarne i file, secondo la sua informativa sulla privacy.
 
-Turno non modifica né elimina mai i file di una cartella sincronizzata: una partita che elimini
-dall'app resta nella cartella, e una cartella sincronizzata che rimuovi dall'app resta com'è, con i
-suoi file. L'elenco delle cartelle sincronizzate è conservato sul dispositivo, insieme all'account
-Google di ogni cartella su Google Drive.
+Turno non elimina mai i file di una cartella sincronizzata: una partita che elimini dall'app resta
+nella cartella, e una cartella sincronizzata che rimuovi dall'app resta com'è, con i suoi file.
+Modifica il file di una partita solo quando quella partita cambia nell'app, perché la modifica
+arrivi agli altri giocatori. L'elenco delle cartelle sincronizzate è conservato sul dispositivo,
+insieme all'account Google di ogni cartella su Google Drive.
 
 ## Google Drive
 
