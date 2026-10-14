@@ -18,11 +18,11 @@
 }
 
 .tavola {
-  --text: #1f1b16;
-  --muted: #4e463c;
-  --background: #faf6ee;
+  --text: #1e1b18;
+  --muted: #4c463f;
+  --background: #f9f6f1;
   --accent: #2f5d50;
-  --divider: #d2c6b6;
+  --divider: #cec7bd;
   --highlight: rgb(224 176 74 / 45%);
   --art: #2f5d50;
   font-family: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -30,11 +30,11 @@
 
 @media (prefers-color-scheme: dark) {
   .tavola {
-    --text: #ede0d4;
-    --muted: #d2c6b6;
-    --background: #1c1714;
+    --text: #eae1d6;
+    --muted: #d0c6b9;
+    --background: #1a1815;
     --accent: #9ed1bd;
-    --divider: #4e463c;
+    --divider: #4c4740;
     --highlight: rgb(224 176 74 / 35%);
   }
 }
