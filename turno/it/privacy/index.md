@@ -12,7 +12,7 @@ privacy_label: Informativa sulla privacy
 
 # Informativa sulla privacy
 
-<p class="updated">Ultimo aggiornamento: 14 ottobre 2026</p>
+<p class="updated">Ultimo aggiornamento: 15 ottobre 2026</p>
 
 Turno è un'app Android per tenere il punteggio nei giochi da tavolo, sviluppata da
 {{ site.developer }}. Questa informativa spiega quali dati gestisce l'app e in che modo.
@@ -84,6 +84,18 @@ nella cartella, e una cartella sincronizzata che rimuovi dall'app resta com'è, 
 Modifica il file di una partita solo quando quella partita cambia nell'app, perché la modifica
 arrivi agli altri giocatori. L'elenco delle cartelle sincronizzate è conservato sul dispositivo.
 
+## Feedback e segnalazioni di errori
+
+Se Turno si chiude inaspettatamente, salva sul dispositivo i dettagli tecnici dell'errore: l'ora,
+la versione dell'app e il punto del codice dell'app in cui è successo. Restano nella memoria privata
+dell'app, sono esclusi dai backup del dispositivo e l'app non li invia mai da nessuna parte da sola.
+
+Quando tocchi **Invia un feedback** nelle impostazioni, Turno apre la tua app email con un messaggio
+per me. Il messaggio contiene già la versione dell'app, la versione di Android e il modello del tuo
+dispositivo e, se Turno si è chiuso inaspettatamente, i dettagli dell'ultimo errore. Puoi leggere e
+modificare il messaggio prima di inviarlo, o non inviarlo affatto: non mi arriva nulla se non lo
+invii tu. Quando si apre la tua app email, Turno elimina dal dispositivo l'errore salvato.
+
 ## Servizi Google usati dall'app
 
 - **ML Kit**, che esegue Gemini Nano sul dispositivo. Secondo la
@@ -121,9 +133,9 @@ nessuno, minori inclusi.
 ## I tuoi diritti
 
 Risiedo nell'Unione europea e sono titolare del trattamento per gli unici dati personali che potrei
-trattare: quelli che mi invii quando mi contatti, che uso solo per risponderti. Ai sensi del GDPR hai
-diritto di accedere ai tuoi dati personali, di rettificarli e di cancellarli, e di proporre reclamo a
-un'autorità di controllo, come il
+trattare: quelli che mi invii quando mi contatti, che uso solo per risponderti e per risolvere i
+problemi che mi segnali. Ai sensi del GDPR hai diritto di accedere ai tuoi dati personali, di
+rettificarli e di cancellarli, e di proporre reclamo a un'autorità di controllo, come il
 [Garante per la protezione dei dati personali](https://www.garanteprivacy.it).
 
 ## Modifiche a questa informativa

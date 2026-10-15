@@ -12,7 +12,7 @@ privacy_label: Privacy policy
 
 # Privacy policy
 
-<p class="updated">Last updated: 14 October 2026</p>
+<p class="updated">Last updated: 15 October 2026</p>
 
 Turno is an Android app to keep score in tabletop games, developed by {{ site.developer }}
 ("I", "me"). This policy explains what data the app handles and how.
@@ -81,6 +81,18 @@ and a sync folder you remove from the app stays as it is, with its files. It onl
 of a game when that game changes in the app, so that the change reaches the other players. The list
 of your sync folders is kept on your device.
 
+## Feedback and crash reports
+
+If Turno closes unexpectedly, it saves the technical details of the error on your device: the time,
+the app version and where in the app's code it happened. They're kept in the app's private storage,
+left out of device backups, and the app never sends them anywhere by itself.
+
+When you tap **Send feedback** in the settings, Turno opens your email app with a message to me. It
+already includes the app version, the Android version and your device's model and, if Turno closed
+unexpectedly, the details of the last error. You can read and change the message before sending it,
+or not send it at all: nothing reaches me unless you send it. Once your email app opens, Turno
+deletes the saved error from your device.
+
 ## Google services used by the app
 
 - **ML Kit**, which runs Gemini Nano on your device. According to
@@ -115,9 +127,9 @@ anyone, including children.
 ## Your rights
 
 I'm based in the European Union, and I'm the data controller for the only personal data I may
-process: what you send me when you contact me, which I use only to reply to you. Under the GDPR you
-have the right to access, correct and delete your personal data, and to lodge a complaint with a
-supervisory authority, such as the Italian
+process: what you send me when you contact me, which I use only to reply to you and to fix the
+problems you report. Under the GDPR you have the right to access, correct and delete your personal
+data, and to lodge a complaint with a supervisory authority, such as the Italian
 [Garante per la protezione dei dati personali](https://www.garanteprivacy.it).
 
 ## Changes to this policy
