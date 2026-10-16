@@ -10,7 +10,7 @@ privacy_url: /turno/de/privacy/
 privacy_label: Datenschutzerklärung
 ---
 
-# Datenschutzerklärung
+# Datenschutz&shy;erklärung
 
 <p class="updated">Zuletzt aktualisiert: 15. Oktober 2026</p>
 
