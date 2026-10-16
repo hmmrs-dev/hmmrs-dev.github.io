@@ -49,6 +49,13 @@ header {
   border-radius: 25%;
 }
 
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.25rem 1rem;
+}
+
 a {
   color: var(--accent);
 }

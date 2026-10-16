@@ -4,14 +4,18 @@ Public pages of hmmrs.dev apps, published with GitHub Pages at https://hmmrs.dev
 
 Each app has its own folder:
 
-| App | Page | English | Italian |
-| --- | --- | --- | --- |
-| Turno | Home | [`turno/index.md`](turno/index.md) | [`turno/it/index.md`](turno/it/index.md) |
-| Turno | Privacy policy | [`turno/privacy/index.md`](turno/privacy/index.md) | [`turno/it/privacy/index.md`](turno/it/privacy/index.md) |
+| App | Page | English | Italian | German |
+| --- | --- | --- | --- | --- |
+| Turno | Home | [`turno/index.md`](turno/index.md) | [`turno/it/index.md`](turno/it/index.md) | [`turno/de/index.md`](turno/de/index.md) |
+| Turno | Privacy policy | [`turno/privacy/index.md`](turno/privacy/index.md) | [`turno/it/privacy/index.md`](turno/it/privacy/index.md) | [`turno/de/privacy/index.md`](turno/de/privacy/index.md) |
 
-The app opens its privacy policy in its current language, so the URLs of the two privacy pages
-(`/turno/privacy/` and `/turno/it/privacy/`) must not change without updating the app. When a policy
-changes, update both languages and the "last updated" date at the top of each.
+The app opens its privacy policy in its current language, so the URLs of the privacy pages
+(`/turno/privacy/`, `/turno/it/privacy/` and `/turno/de/privacy/`) must not change without updating
+the app. When a policy changes, update every language and the "last updated" date at the top of each.
+
+Each page lists its translations under `translations` in its front matter, and the layout links to
+them in the header with the language names set in [`_config.yml`](_config.yml). A new translation is
+added to the `translations` of the pages it translates.
 
 The contact email and the developer name are set once, in [`_config.yml`](_config.yml), which also
 sets the name, icons and theme shared by all the pages of each app.
