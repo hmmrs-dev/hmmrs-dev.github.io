@@ -7,6 +7,10 @@ baseurl: ""
 contact_email: support@hmmrs.dev
 developer: Enrico Martelli
 
+# Each app's listing on Google Play, which its Get it on Google Play badges link to
+google_play:
+  turno: https://play.google.com/store/apps/details?id=dev.hmmrs.turno
+
 defaults:
   - scope:
       path: ""

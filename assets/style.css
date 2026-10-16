@@ -203,9 +203,13 @@ h2 {
   margin: 0.5rem 0;
 }
 
-.app-meta {
-  font-size: 0.9rem;
-  color: var(--muted);
+.app .google-play {
+  margin: 0.75rem 0;
+}
+
+/* Like the privacy link, the badge sits above the link that covers the tile */
+.app .google-play a {
+  position: relative;
 }
 
 .app-secondary {
@@ -227,10 +231,31 @@ h2 {
   color: var(--muted);
 }
 
+/* Google's Get it on Google Play badge, as it is, with a quarter of its height of clear space around */
+.google-play {
+  margin: 1.5rem 0;
+}
+
+.google-play a {
+  display: block;
+  width: fit-content;
+}
+
+.google-play img {
+  display: block;
+  width: auto;
+  height: 3rem;
+}
+
 footer {
   margin-top: 3rem;
   padding-top: 1rem;
   border-top: 1px solid var(--divider);
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.trademarks {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
 }

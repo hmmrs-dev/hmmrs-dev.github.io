@@ -3,6 +3,7 @@ title: hmmrs.dev
 theme: home
 hide_header: true
 stylesheets: [/turno/assets/tavola.css]
+google_play_notice: Google Play and the Google Play logo are trademarks of Google LLC.
 ---
 
 <section class="hero">
@@ -20,7 +21,9 @@ stylesheets: [/turno/assets/tavola.css]
     <div class="app-body">
       <h3 class="app-name"><a href="{{ '/turno/' | relative_url }}">Turno</a></h3>
       <p>Your companion at the game table, to keep score in tabletop games.</p>
-      <p class="app-meta">Android · Coming soon to Google Play</p>
+      <p class="google-play">
+        <a href="{{ site.google_play.turno }}"><img src="{{ '/assets/google-play/en.svg' | relative_url }}" alt="Get it on Google Play" width="239" height="71"></a>
+      </p>
       <a class="app-secondary" href="{{ '/turno/privacy/' | relative_url }}">Privacy policy</a>
     </div>
   </li>
