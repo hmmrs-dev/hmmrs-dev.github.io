@@ -170,6 +170,18 @@ h2 {
   margin-top: 2rem;
 }
 
+/* A word too long for the line, like a German compound on a phone, breaks instead of overflowing */
+h1,
+h2 {
+  overflow-wrap: break-word;
+}
+
+/* German headings hyphenate their long compounds, with the browser's dictionary */
+h1:lang(de),
+h2:lang(de) {
+  hyphens: auto;
+}
+
 /* Home page: a wordmark, and each app as a tile in the app's own theme, so it's easy to recognize */
 .home {
   --dots: light-dark(#d6d6d6, #262626);
