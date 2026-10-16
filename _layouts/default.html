@@ -16,9 +16,11 @@
   {%- for stylesheet in page.stylesheets %}
   <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
   {%- endfor %}
-  {%- if page.alt_url %}
+  {%- if page.translations %}
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
-  <link rel="alternate" hreflang="{{ page.alt_lang }}" href="{{ page.alt_url | absolute_url }}">
+  {%- for translation in page.translations %}
+  <link rel="alternate" hreflang="{{ translation[0] }}" href="{{ translation[1] | absolute_url }}">
+  {%- endfor %}
   {%- endif %}
 </head>
 <body{% if page.theme %} class="{{ page.theme }}"{% endif %}>
@@ -30,8 +32,13 @@
       {%- endif %}
       <span>{{ page.brand | default: site.title }}</span>
     </a>
-    {%- if page.alt_url %}
-    <a class="language" href="{{ page.alt_url | relative_url }}" hreflang="{{ page.alt_lang }}" lang="{{ page.alt_lang }}">{{ page.alt_label }}</a>
+    {%- if page.translations %}
+    <nav class="languages">
+      {%- for translation in page.translations %}
+      {%- assign lang = translation[0] %}
+      <a href="{{ translation[1] | relative_url }}" hreflang="{{ lang }}" lang="{{ lang }}">{{ site.languages[lang] }}</a>
+      {%- endfor %}
+    </nav>
     {%- endif %}
   </header>
   {%- endunless %}

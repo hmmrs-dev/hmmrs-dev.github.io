@@ -7,6 +7,12 @@ baseurl: ""
 contact_email: support@hmmrs.dev
 developer: Enrico Martelli
 
+# The name of each language, in that language, for the links to a page's translations
+languages:
+  en: English
+  it: Italiano
+  de: Deutsch
+
 defaults:
   - scope:
       path: ""

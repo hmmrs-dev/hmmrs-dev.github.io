@@ -3,9 +3,9 @@ lang: en
 title: Turno – Score keeper for tabletop games
 description: The score keeper you bring to every game night, with a score pad, turns, timers, rankings and hands-free voice scoring.
 home_url: /turno/
-alt_lang: it
-alt_url: /turno/it/
-alt_label: Italiano
+translations:
+  it: /turno/it/
+  de: /turno/de/
 privacy_url: /turno/privacy/
 privacy_label: Privacy policy
 ---
