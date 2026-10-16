@@ -44,6 +44,9 @@
     ·
     {%- endif %}
     <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+    {%- if page.google_play_notice %}
+    <p class="trademarks">{{ page.google_play_notice }}</p>
+    {%- endif %}
   </footer>
 </body>
 </html>

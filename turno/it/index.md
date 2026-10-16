@@ -8,6 +8,7 @@ alt_url: /turno/
 alt_label: English
 privacy_url: /turno/it/privacy/
 privacy_label: Informativa sulla privacy
+google_play_notice: Google Play e il logo Google Play sono marchi di Google LLC.
 ---
 
 # Il tuo compagno al tavolo da gioco
@@ -28,4 +29,6 @@ possono pensare solo a giocare.
 
 Turno è sviluppato da {{ site.developer }}, da un'idea originale di Diego Romani.
 
-Presto disponibile su Google Play.
+<p class="google-play">
+  <a href="{{ site.google_play.turno }}"><img src="{{ '/assets/google-play/it.svg' | relative_url }}" alt="Disponibile su Google Play" width="239" height="71"></a>
+</p>

@@ -8,6 +8,7 @@ alt_url: /turno/it/
 alt_label: Italiano
 privacy_url: /turno/privacy/
 privacy_label: Privacy policy
+google_play_notice: Google Play and the Google Play logo are trademarks of Google LLC.
 ---
 
 # Your companion at the game table
@@ -27,4 +28,6 @@ focus on playing.
 
 Turno is made by {{ site.developer }}, from an original idea by Diego Romani.
 
-Coming soon to Google Play.
+<p class="google-play">
+  <a href="{{ site.google_play.turno }}"><img src="{{ '/assets/google-play/en.svg' | relative_url }}" alt="Get it on Google Play" width="239" height="71"></a>
+</p>
