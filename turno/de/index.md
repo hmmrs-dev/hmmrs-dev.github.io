@@ -8,6 +8,7 @@ translations:
   it: /turno/it/
 privacy_url: /turno/de/privacy/
 privacy_label: Datenschutzerklärung
+google_play_notice: Google Play und das Google Play-Logo sind Marken von Google LLC.
 ---
 
 # Dein Begleiter am Spieltisch
@@ -28,4 +29,6 @@ Blick, damit sich alle aufs Spielen konzentrieren können.
 
 Turno wird von {{ site.developer }} entwickelt, nach einer ursprünglichen Idee von Diego Romani.
 
-Bald bei Google Play erhältlich.
+<p class="google-play">
+  <a href="{{ site.google_play.turno }}"><img src="{{ '/assets/google-play/de.svg' | relative_url }}" alt="Jetzt bei Google Play" width="239" height="71"></a>
+</p>
