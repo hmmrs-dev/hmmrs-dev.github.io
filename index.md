@@ -5,6 +5,7 @@ theme: home
 hide_brand: true
 translations:
   it: /it/
+  de: /de/
 stylesheets: [/turno/assets/tavola.css]
 google_play_notice: Google Play and the Google Play logo are trademarks of Google LLC.
 ---
