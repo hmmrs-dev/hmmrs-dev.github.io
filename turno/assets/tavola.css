@@ -18,30 +18,20 @@
 }
 
 .tavola {
-  --text: #1e1b18;
-  --muted: #4c463f;
-  --background: #f9f6f1;
-  --accent: #2f5d50;
-  --divider: #cec7bd;
-  --highlight: rgb(224 176 74 / 45%);
+  --text: light-dark(#1e1b18, #eae1d6);
+  --muted: light-dark(#4c463f, #d0c6b9);
+  --background: light-dark(#f9f6f1, #1a1815);
+  --accent: light-dark(#2f5d50, #9ed1bd);
+  --divider: light-dark(#cec7bd, #4c4740);
+  --highlight: light-dark(rgb(224 176 74 / 45%), rgb(224 176 74 / 35%));
   --art: #2f5d50;
   font-family: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  .tavola {
-    --text: #eae1d6;
-    --muted: #d0c6b9;
-    --background: #1a1815;
-    --accent: #9ed1bd;
-    --divider: #4c4740;
-    --highlight: rgb(224 176 74 / 35%);
-  }
 }
 
 .tavola h1,
 .tavola h2,
 .tavola .brand,
+.tavola .brand-name,
 .tavola .app-name {
   font-family: "Fraunces", Georgia, serif;
   font-weight: 700;

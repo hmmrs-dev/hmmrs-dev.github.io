@@ -1,20 +1,19 @@
+/* Each color is light-dark(light, dark), following the browser's theme or the one chosen with the switch */
 :root {
   color-scheme: light dark;
-  --text: #111111;
-  --muted: #5c5c5c;
-  --background: #ffffff;
-  --accent: #000000;
-  --divider: #e2e2e2;
+  --text: light-dark(#111111, #f0f0f0);
+  --muted: light-dark(#5c5c5c, #a3a3a3);
+  --background: light-dark(#ffffff, #000000);
+  --accent: light-dark(#000000, #ffffff);
+  --divider: light-dark(#e2e2e2, #2e2e2e);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #f0f0f0;
-    --muted: #a3a3a3;
-    --background: #000000;
-    --accent: #ffffff;
-    --divider: #2e2e2e;
-  }
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
 }
 
 body {
@@ -29,8 +28,10 @@ body {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  gap: 0.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--divider);
 }
@@ -49,6 +50,114 @@ header {
   border-radius: 25%;
 }
 
+/*
+ * On phones narrower than 360px, the switches only fit beside the icon, so the name moves below the
+ * header, above the page's title. Screen readers still read it in the header.
+ */
+.brand-name {
+  display: none;
+}
+
+@media (max-width: 22.4rem) {
+  .brand span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .brand-name {
+    display: block;
+    margin: 1.25rem 0 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .brand-name + h1 {
+    margin-top: 0.5rem;
+  }
+}
+
+/* The theme and language switches: pills with the current choice filled in */
+.switches {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.switch {
+  display: flex;
+  margin: 0;
+  padding: 0.1875rem;
+  border: 1px solid var(--divider);
+  border-radius: 999px;
+  background: var(--background);
+}
+
+.switch[hidden] {
+  display: none;
+}
+
+.switch a,
+.switch label {
+  display: grid;
+  place-items: center;
+  min-width: 2rem;
+  height: 2rem;
+  box-sizing: border-box;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.switch label {
+  padding: 0;
+}
+
+.switch a:hover,
+.switch label:hover {
+  color: var(--text);
+}
+
+.switch [aria-current="page"],
+.switch label:has(:checked) {
+  color: var(--background);
+  background: var(--accent);
+}
+
+.switch a:focus-visible,
+.switch label:has(:focus-visible) {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.switch svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Hidden, but still read by screen readers and, for the theme switch's radio buttons, focusable */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 a {
   color: var(--accent);
 }
@@ -63,19 +172,19 @@ h2 {
 
 /* Home page: a wordmark, and each app as a tile in the app's own theme, so it's easy to recognize */
 .home {
-  --dots: #d6d6d6;
+  --dots: light-dark(#d6d6d6, #262626);
   background-image: radial-gradient(var(--dots) 1px, transparent 1.5px);
   background-size: 22px 22px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .home {
-    --dots: #262626;
-  }
+/* The wordmark is the brand, so the header only has the switches */
+.home header {
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 .hero {
-  padding: 4rem 0 2.5rem;
+  padding: 1.5rem 0 2.5rem;
 }
 
 .wordmark {

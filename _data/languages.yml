@@ -1,0 +1,16 @@
+# The languages of the site, in the order the language switch shows them, with the layout's words in
+# each of them
+en:
+  name: English
+  language: Language
+  theme: Theme
+  theme_browser: Same as the browser
+  theme_light: Light
+  theme_dark: Dark
+it:
+  name: Italiano
+  language: Lingua
+  theme: Tema
+  theme_browser: Come il browser
+  theme_light: Chiaro
+  theme_dark: Scuro

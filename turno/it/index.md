@@ -5,7 +5,6 @@ description: Il segnapunti da portare a ogni serata di giochi, con blocchetto de
 home_url: /turno/it/
 alt_lang: en
 alt_url: /turno/
-alt_label: English
 privacy_url: /turno/it/privacy/
 privacy_label: Informativa sulla privacy
 google_play_notice: Google Play e il logo Google Play sono marchi di Google LLC.

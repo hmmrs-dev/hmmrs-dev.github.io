@@ -16,6 +16,11 @@ changes, update both languages and the "last updated" date at the top of each.
 The contact email and the developer name are set once, in [`_config.yml`](_config.yml), which also
 sets the name, icons and theme shared by all the pages of each app.
 
+Every page has a theme switch (same as the browser, light or dark), which saves the chosen theme in
+the browser, and a language switch to its translation, set by `alt_lang` and `alt_url`. The names of
+the languages and the switches' words are in [`_data/languages.yml`](_data/languages.yml). The
+colors of each theme are written as `light-dark(light, dark)`, so that they follow the chosen one.
+
 Each app's page and its tile link to its Google Play listing, set under `google_play` in
 [`_config.yml`](_config.yml), with Google's *Get it on Google Play* badge in the page's language
 ([`assets/google-play`](assets/google-play)). The badges are downloaded as they are from Google's
@@ -24,9 +29,10 @@ whose guidelines ask not to change them and to leave a quarter of their height o
 them. A page with a badge sets `google_play_notice` to Google's trademark notice, in its language,
 and the layout shows it in the footer.
 
-The home page is black and white, and shows each app as a tile in the app's own theme, so it's easy
-to recognize: the top of the tile shows the icon on the theme's `--art` color. A theme is a
-stylesheet that restyles the elements with its class: Turno's pages and its tile use the app's
-*Tavola* theme ([`turno/assets/tavola.css`](turno/assets/tavola.css)), with its fonts, Fraunces and
-Figtree, taken from the app and licensed under the SIL Open Font License (see `turno/assets/fonts`).
-The icons are exported from the app's icon generator.
+The home page, in English ([`index.md`](index.md)) and Italian ([`it/index.md`](it/index.md)), links
+to each app's pages in the same language. It is black and white, and shows each app as a tile in the
+app's own theme, so it's easy to recognize: the top of the tile shows the icon on the theme's `--art`
+color. A theme is a stylesheet that restyles the elements with its class: Turno's pages and its
+tile use the app's *Tavola* theme ([`turno/assets/tavola.css`](turno/assets/tavola.css)), with its
+fonts, Fraunces and Figtree, taken from the app and licensed under the SIL Open Font License (see
+`turno/assets/fonts`). The icons are exported from the app's icon generator.

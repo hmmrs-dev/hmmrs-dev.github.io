@@ -5,7 +5,6 @@ description: How the Turno app handles your data.
 home_url: /turno/
 alt_lang: it
 alt_url: /turno/it/privacy/
-alt_label: Italiano
 privacy_url: /turno/privacy/
 privacy_label: Privacy policy
 ---

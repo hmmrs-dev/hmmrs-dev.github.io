@@ -5,7 +5,6 @@ description: The score keeper you bring to every game night, with a score pad, t
 home_url: /turno/
 alt_lang: it
 alt_url: /turno/it/
-alt_label: Italiano
 privacy_url: /turno/privacy/
 privacy_label: Privacy policy
 google_play_notice: Google Play and the Google Play logo are trademarks of Google LLC.
