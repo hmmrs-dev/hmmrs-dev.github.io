@@ -51,14 +51,14 @@ header {
 }
 
 /*
- * On phones narrower than 360px, the switches only fit beside the icon, so the name moves below the
- * header, above the page's title. Screen readers still read it in the header.
+ * On phones narrower than 392px, the switches (with three languages) only fit beside the icon, so the
+ * name moves below the header, above the page's title. Screen readers still read it in the header.
  */
 .brand-name {
   display: none;
 }
 
-@media (max-width: 22.4rem) {
+@media (max-width: 24.5rem) {
   .brand span {
     position: absolute;
     width: 1px;
