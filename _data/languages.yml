@@ -14,3 +14,10 @@ it:
   theme_browser: Come il browser
   theme_light: Chiaro
   theme_dark: Scuro
+de:
+  name: Deutsch
+  language: Sprache
+  theme: Design
+  theme_browser: Wie im Browser
+  theme_light: Hell
+  theme_dark: Dunkel

@@ -3,8 +3,8 @@ lang: en
 title: hmmrs.dev
 theme: home
 hide_brand: true
-alt_lang: it
-alt_url: /it/
+translations:
+  it: /it/
 stylesheets: [/turno/assets/tavola.css]
 google_play_notice: Google Play and the Google Play logo are trademarks of Google LLC.
 ---

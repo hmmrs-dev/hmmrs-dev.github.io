@@ -4,8 +4,8 @@ title: hmmrs.dev
 description: App di hmmrs.dev.
 theme: home
 hide_brand: true
-alt_lang: en
-alt_url: /
+translations:
+  en: /
 stylesheets: [/turno/assets/tavola.css]
 google_play_notice: Google Play e il logo Google Play sono marchi di Google LLC.
 ---
