@@ -31,8 +31,8 @@ whose guidelines ask not to change them and to leave a quarter of their height o
 them. A page with a badge sets `google_play_notice` to Google's trademark notice, in its language,
 and the layout shows it in the footer.
 
-The home page, in English ([`index.md`](index.md)) and Italian ([`it/index.md`](it/index.md)), links
-to each app's pages in the same language. It is black and white, and shows each app as a tile in the
+The home page, in English ([`index.md`](index.md)), Italian ([`it/index.md`](it/index.md)) and
+German ([`de/index.md`](de/index.md)), links to each app's pages in the same language. It is black and white, and shows each app as a tile in the
 app's own theme, so it's easy to recognize: the top of the tile shows the icon on the theme's `--art`
 color. A theme is a stylesheet that restyles the elements with its class: Turno's pages and its
 tile use the app's *Tavola* theme ([`turno/assets/tavola.css`](turno/assets/tavola.css)), with its
