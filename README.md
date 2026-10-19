@@ -4,22 +4,24 @@ Public pages of hmmrs.dev apps, published with GitHub Pages at https://hmmrs.dev
 
 Each app has its own folder:
 
-| App | Page | English | Italian |
-| --- | --- | --- | --- |
-| Turno | Home | [`turno/index.md`](turno/index.md) | [`turno/it/index.md`](turno/it/index.md) |
-| Turno | Privacy policy | [`turno/privacy/index.md`](turno/privacy/index.md) | [`turno/it/privacy/index.md`](turno/it/privacy/index.md) |
+| App | Page | English | Italian | German |
+| --- | --- | --- | --- | --- |
+| Turno | Home | [`turno/index.md`](turno/index.md) | [`turno/it/index.md`](turno/it/index.md) | [`turno/de/index.md`](turno/de/index.md) |
+| Turno | Privacy policy | [`turno/privacy/index.md`](turno/privacy/index.md) | [`turno/it/privacy/index.md`](turno/it/privacy/index.md) | [`turno/de/privacy/index.md`](turno/de/privacy/index.md) |
 
-The app opens its privacy policy in its current language, so the URLs of the two privacy pages
-(`/turno/privacy/` and `/turno/it/privacy/`) must not change without updating the app. When a policy
-changes, update both languages and the "last updated" date at the top of each.
+The app opens its privacy policy in its current language, so the URLs of the privacy pages
+(`/turno/privacy/`, `/turno/it/privacy/` and `/turno/de/privacy/`) must not change without updating
+the app. When a policy changes, update every language and the "last updated" date at the top of each.
 
 The contact email and the developer name are set once, in [`_config.yml`](_config.yml), which also
 sets the name, icons and theme shared by all the pages of each app.
 
 Every page has a theme switch (same as the browser, light or dark), which saves the chosen theme in
-the browser, and a language switch to its translation, set by `alt_lang` and `alt_url`. The names of
-the languages and the switches' words are in [`_data/languages.yml`](_data/languages.yml). The
-colors of each theme are written as `light-dark(light, dark)`, so that they follow the chosen one.
+the browser, and a language switch to its translations, which each page lists under `translations`
+in its front matter: a new translation is added to the `translations` of the pages it translates. The
+names of the languages, in the order the switch shows them, and the switches' words are in
+[`_data/languages.yml`](_data/languages.yml). The colors of each theme are written as
+`light-dark(light, dark)`, so that they follow the chosen one.
 
 Each app's page and its tile link to its Google Play listing, set under `google_play` in
 [`_config.yml`](_config.yml), with Google's *Get it on Google Play* badge in the page's language
