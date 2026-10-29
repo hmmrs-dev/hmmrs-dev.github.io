@@ -11,7 +11,7 @@ privacy_label: Informativa sulla privacy
 
 # Informativa sulla privacy
 
-<p class="updated">Ultimo aggiornamento: 15 ottobre 2026</p>
+<p class="updated">Ultimo aggiornamento: 29 ottobre 2026</p>
 
 Turno è un'app Android per tenere il punteggio nei giochi da tavolo, sviluppata da
 {{ site.developer }}. Questa informativa spiega quali dati gestisce l'app e in che modo.
@@ -104,8 +104,15 @@ invii tu. Quando si apre la tua app email, Turno elimina dal dispositivo l'error
   di prestazioni, codici di errore e le lingue configurate. Queste informazioni sono cifrate durante
   la trasmissione e non vengono condivise con terze parti. Non includono la tua voce, il testo
   riconosciuto né le tue partite.
-- **Google Play Billing** e **aggiornamenti in-app di Google Play**, che comunicano con l'app Google
-  Play Store sul dispositivo per gestire acquisti e aggiornamenti.
+- **Google Play Billing**, che comunica con l'app Google Play Store sul dispositivo per gestire gli
+  acquisti. Secondo le
+  [note di Google sulla libreria Play Billing](https://developer.android.com/google/play/billing/release-notes),
+  la libreria invia anche a Google informazioni diagnostiche su come l'app la usa, come la riuscita o
+  meno delle sue richieste a Google Play e i problemi di connessione a Google Play, che Google usa per
+  migliorare la libreria e per aiutare a risolvere gli errori. Non includono i tuoi dati di pagamento,
+  che l'app non vede mai, né le tue partite.
+- **Aggiornamenti in-app di Google Play**, che comunicano con l'app Google Play Store sul dispositivo
+  per cercare e installare gli aggiornamenti.
 
 ## Cosa non faccio
 
