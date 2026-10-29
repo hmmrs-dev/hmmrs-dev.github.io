@@ -11,7 +11,7 @@ privacy_label: Privacy policy
 
 # Privacy policy
 
-<p class="updated">Last updated: 15 October 2026</p>
+<p class="updated">Last updated: 29 October 2026</p>
 
 Turno is an Android app to keep score in tabletop games, developed by {{ site.developer }}
 ("I", "me"). This policy explains what data the app handles and how.
@@ -100,8 +100,15 @@ deletes the saved error from your device.
   Android version), the app's name and version, installation identifiers, performance metrics, error
   codes and the configured languages. This information is encrypted in transit and is not shared with
   third parties. It doesn't include your voice, the recognized text or your games.
-- **Google Play Billing** and **Google Play in-app updates**, which talk to the Google Play Store app
-  on your device to handle purchases and app updates.
+- **Google Play Billing**, which talks to the Google Play Store app on your device to handle
+  purchases. According to
+  [Google's notes on the Play Billing Library](https://developer.android.com/google/play/billing/release-notes),
+  the library also sends Google diagnostic information about how the app uses it, such as whether its
+  requests to Google Play succeed or fail and problems connecting to Google Play, which Google uses to
+  improve the library and to help with errors. It doesn't include your payment details, which the app
+  never sees, or your games.
+- **Google Play in-app updates**, which talks to the Google Play Store app on your device to check for
+  and install updates.
 
 ## What I don't do
 
