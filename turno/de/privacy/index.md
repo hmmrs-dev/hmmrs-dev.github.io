@@ -12,7 +12,7 @@ privacy_label: Datenschutzerklärung
 
 # Datenschutzerklärung
 
-<p class="updated">Zuletzt aktualisiert: 15. Oktober 2026</p>
+<p class="updated">Zuletzt aktualisiert: 29. Oktober 2026</p>
 
 Turno ist eine Android-App zum Zählen der Punkte bei Gesellschaftsspielen, entwickelt von
 {{ site.developer }} („ich“). Diese Erklärung beschreibt, welche Daten die App verarbeitet und wie.
@@ -109,8 +109,15 @@ von deinem Gerät.
   Fehlercodes und die eingestellten Sprachen. Diese Informationen werden bei der Übertragung
   verschlüsselt und nicht an Dritte weitergegeben. Sie enthalten weder deine Stimme noch den
   erkannten Text oder deine Partien.
-- **Google Play Billing** und **In-App-Updates von Google Play**, die mit der App Google Play Store
-  auf deinem Gerät kommunizieren, um Käufe und App-Updates abzuwickeln.
+- **Google Play Billing**, das mit der App Google Play Store auf deinem Gerät kommuniziert, um Käufe
+  abzuwickeln. Laut
+  [Googles Hinweisen zur Play Billing Library](https://developer.android.com/google/play/billing/release-notes)
+  sendet die Bibliothek außerdem Diagnoseinformationen darüber an Google, wie die App sie nutzt, etwa
+  ob ihre Anfragen an Google Play gelingen oder fehlschlagen und ob es Probleme bei der Verbindung mit
+  Google Play gibt. Google nutzt sie, um die Bibliothek zu verbessern und bei Fehlern zu helfen. Sie
+  enthalten weder deine Zahlungsdaten, die die App nie sieht, noch deine Partien.
+- **In-App-Updates von Google Play**, die mit der App Google Play Store auf deinem Gerät
+  kommunizieren, um nach Updates zu suchen und sie zu installieren.
 
 ## Was ich nicht tue
 
