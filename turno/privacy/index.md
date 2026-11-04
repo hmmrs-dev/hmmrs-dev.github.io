@@ -11,14 +11,14 @@ privacy_label: Privacy policy
 
 # Privacy policy
 
-<p class="updated">Last updated: 29 October 2026</p>
+<p class="updated">Last updated: 4 November 2026</p>
 
 Turno is an Android app to keep score in tabletop games, developed by {{ site.developer }}
 ("I", "me"). This policy explains what data the app handles and how.
 
 **In short:** Turno has no accounts, no ads and no analytics, and I don't run any servers. Your
-games stay on your device, unless you choose to sync them through a folder, and I have no access to
-them.
+games and players stay on your device, unless you choose to sync them through a folder, and I have
+no access to them.
 
 ## Data stored on your device
 
@@ -69,16 +69,22 @@ a finished game or sync by hand, Turno:
 
 - saves your finished games in the folder, the ones of the rulesets and groups you chose for it,
   each as a file with its name, date, ruleset, group name, player names, scores and history;
-- adds the games it finds in the folder, saved there by the other players, to the app.
+- adds the games it finds in the folder, saved there by the other players, to the app;
+- if the folder shares players, groups and rulesets, which is on for new folders and can be turned
+  off, saves them in one more file: the names, colors and avatars of your saved players, the names
+  and members of your groups, and the names and rules of your rulesets, or only the groups and
+  rulesets you chose for the folder. It also adds the ones it finds there to the app, and applies
+  the changes made to them on other devices.
 
-Anyone who can open the folder can read the games in it, such as the players you share it with. If
+Anyone who can open the folder can read what's in it, such as the players you share it with. If
 a cloud storage or sync app keeps a folder of your device in sync, that app uploads its files, under
 its own privacy policy.
 
-Turno never deletes the files in a sync folder: a game you delete in the app stays in the folder,
-and a sync folder you remove from the app stays as it is, with its files. It only changes the file
-of a game when that game changes in the app, so that the change reaches the other players. The list
-of your sync folders is kept on your device.
+Turno never deletes the files in a sync folder: a game, player, group or ruleset you delete in the
+app stays in the folder, and a sync folder you remove from the app stays as it is, with its files.
+It only changes the file of a game when that game or the name of one of its players changes in the
+app, so that the change reaches the other players. The list of your sync folders is kept on your
+device.
 
 ## Feedback and crash reports
 

@@ -11,14 +11,14 @@ privacy_label: Informativa sulla privacy
 
 # Informativa sulla privacy
 
-<p class="updated">Ultimo aggiornamento: 29 ottobre 2026</p>
+<p class="updated">Ultimo aggiornamento: 4 novembre 2026</p>
 
 Turno è un'app Android per tenere il punteggio nei giochi da tavolo, sviluppata da
 {{ site.developer }}. Questa informativa spiega quali dati gestisce l'app e in che modo.
 
 **In breve:** Turno non ha account, pubblicità né strumenti di analisi, e non uso alcun server.
-Le tue partite restano sul tuo dispositivo, a meno che tu non scelga di sincronizzarle tramite una
-cartella, e io non posso accedervi.
+Le tue partite e i tuoi giocatori restano sul tuo dispositivo, a meno che tu non scelga di
+sincronizzarli tramite una cartella, e io non posso accedervi.
 
 ## Dati salvati sul dispositivo
 
@@ -72,16 +72,22 @@ sincronizzi a mano, Turno:
 - salva nella cartella le tue partite finite, quelle delle regole e dei gruppi che hai scelto per
   la cartella, ognuna in un file con il suo nome, la data, le regole, il nome del gruppo, i nomi dei
   giocatori, i punteggi e la cronologia;
-- aggiunge all'app le partite che trova nella cartella, salvate lì dagli altri giocatori.
+- aggiunge all'app le partite che trova nella cartella, salvate lì dagli altri giocatori;
+- se la cartella condivide giocatori, gruppi e regole, opzione attiva per le nuove cartelle e che
+  puoi disattivare, li salva in un altro file: i nomi, i colori e gli avatar dei tuoi giocatori
+  salvati, i nomi e i membri dei tuoi gruppi, i nomi e le impostazioni delle tue regole, oppure solo
+  i gruppi e le regole che hai scelto per la cartella. Aggiunge inoltre all'app quelli che trova lì
+  e applica le modifiche fatte su altri dispositivi.
 
-Chiunque possa aprire la cartella può leggere le partite che contiene, come i giocatori con cui la
+Chiunque possa aprire la cartella può leggere ciò che contiene, come i giocatori con cui la
 condividi. Se un'app di cloud storage o di sincronizzazione tiene sincronizzata una cartella del
 dispositivo, è quell'app a caricarne i file, secondo la sua informativa sulla privacy.
 
-Turno non elimina mai i file di una cartella sincronizzata: una partita che elimini dall'app resta
-nella cartella, e una cartella sincronizzata che rimuovi dall'app resta com'è, con i suoi file.
-Modifica il file di una partita solo quando quella partita cambia nell'app, perché la modifica
-arrivi agli altri giocatori. L'elenco delle cartelle sincronizzate è conservato sul dispositivo.
+Turno non elimina mai i file di una cartella sincronizzata: una partita, un giocatore, un gruppo o
+delle regole che elimini dall'app restano nella cartella, e una cartella sincronizzata che rimuovi
+dall'app resta com'è, con i suoi file. Modifica il file di una partita solo quando nell'app cambia
+quella partita o il nome di uno dei suoi giocatori, perché la modifica arrivi agli altri giocatori.
+L'elenco delle cartelle sincronizzate è conservato sul dispositivo.
 
 ## Feedback e segnalazioni di errori
 
