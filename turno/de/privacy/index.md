@@ -12,14 +12,14 @@ privacy_label: Datenschutzerklärung
 
 # Datenschutzerklärung
 
-<p class="updated">Zuletzt aktualisiert: 29. Oktober 2026</p>
+<p class="updated">Zuletzt aktualisiert: 4. November 2026</p>
 
 Turno ist eine Android-App zum Zählen der Punkte bei Gesellschaftsspielen, entwickelt von
 {{ site.developer }} („ich“). Diese Erklärung beschreibt, welche Daten die App verarbeitet und wie.
 
 **Kurz gesagt:** Turno hat keine Benutzerkonten, keine Werbung und keine Analysetools, und ich
-betreibe keine Server. Deine Partien bleiben auf deinem Gerät, es sei denn, du synchronisierst sie
-über einen Ordner, und ich habe keinen Zugriff darauf.
+betreibe keine Server. Deine Partien und Spieler bleiben auf deinem Gerät, es sei denn, du
+synchronisierst sie über einen Ordner, und ich habe keinen Zugriff darauf.
 
 ## Auf deinem Gerät gespeicherte Daten
 
@@ -75,16 +75,22 @@ wenn du die App öffnest oder verlässt, eine beendete Partie schließt oder von
 - speichert Turno deine beendeten Partien im Ordner, und zwar die der Regelwerke und Gruppen, die du
   dafür ausgewählt hast, jede als Datei mit Name, Datum, Regelwerk, Gruppenname, Spielernamen,
   Punkteständen und Verlauf;
-- übernimmt Turno die Partien in die App, die die anderen Spieler im Ordner gespeichert haben.
+- übernimmt Turno die Partien in die App, die die anderen Spieler im Ordner gespeichert haben;
+- speichert Turno, wenn der Ordner Spieler, Gruppen und Regelwerke teilt (bei neuen Ordnern ist das
+  eingeschaltet, und du kannst es abschalten), diese in einer weiteren Datei: die Namen, Farben und
+  Avatare deiner gespeicherten Spieler, die Namen und Mitglieder deiner Gruppen und die Namen und
+  Regeln deiner Regelwerke, oder nur die Gruppen und Regelwerke, die du für den Ordner ausgewählt
+  hast. Die Spieler, Gruppen und Regelwerke, die Turno dort findet, übernimmt es in die App, ebenso
+  die Änderungen, die auf anderen Geräten daran gemacht wurden.
 
-Wer den Ordner öffnen kann, kann die Partien darin lesen, zum Beispiel die Spieler, mit denen du ihn
+Wer den Ordner öffnen kann, kann lesen, was darin liegt, zum Beispiel die Spieler, mit denen du ihn
 teilst. Wenn eine Cloudspeicher- oder Synchronisierungs-App einen Ordner deines Geräts synchron
 hält, lädt diese App seine Dateien hoch, gemäß ihrer eigenen Datenschutzerklärung.
 
-Turno löscht nie Dateien in einem Sync-Ordner: Eine Partie, die du in der App löschst, bleibt im
-Ordner, und ein Sync-Ordner, den du aus der App entfernst, bleibt mit seinen Dateien, wie er ist.
-Turno ändert die Datei einer Partie nur, wenn sich diese Partie in der App ändert, damit die Änderung
-die anderen Spieler erreicht. Die Liste deiner Sync-Ordner wird auf deinem Gerät gespeichert.
+Turno löscht nie Dateien in einem Sync-Ordner: Was du in der App löschst, ob Partie, Spieler,
+Gruppe oder Regelwerk, bleibt im Ordner, und ein Sync-Ordner, den du aus der App entfernst, bleibt
+mit seinen Dateien, wie er ist. Turno ändert die Datei einer Partie nur, wenn sich in der App diese
+Partie oder der Name eines ihrer Spieler ändert, damit die Änderung die anderen Spieler erreicht. Die Liste deiner Sync-Ordner wird auf deinem Gerät gespeichert.
 
 ## Feedback und Absturzberichte
 
