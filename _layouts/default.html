@@ -16,9 +16,11 @@
   {%- for stylesheet in page.stylesheets %}
   <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
   {%- endfor %}
-  {%- if page.alt_url %}
+  {%- if page.translations %}
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
-  <link rel="alternate" hreflang="{{ page.alt_lang }}" href="{{ page.alt_url | absolute_url }}">
+  {%- for translation in page.translations %}
+  <link rel="alternate" hreflang="{{ translation[0] }}" href="{{ translation[1] | absolute_url }}">
+  {%- endfor %}
   {%- endif %}
   <script>
     // The theme chosen with the theme switch, applied before the page is drawn so it doesn't flash
@@ -82,14 +84,15 @@
           });
         }
       </script>
-      {%- if page.alt_url %}
+      {%- if page.translations %}
       <nav class="switch" aria-label="{{ words.language }}">
         {%- for language in site.data.languages %}
         {%- assign code = language[0] %}
+        {%- assign translation = page.translations[code] %}
         {%- if code == page.lang %}
         <a href="{{ page.url | relative_url }}" lang="{{ code }}" title="{{ language[1].name }}" aria-label="{{ language[1].name }}" aria-current="page">{{ code | upcase }}</a>
-        {%- elsif code == page.alt_lang %}
-        <a href="{{ page.alt_url | relative_url }}" hreflang="{{ code }}" lang="{{ code }}" title="{{ language[1].name }}" aria-label="{{ language[1].name }}">{{ code | upcase }}</a>
+        {%- elsif translation %}
+        <a href="{{ translation | relative_url }}" hreflang="{{ code }}" lang="{{ code }}" title="{{ language[1].name }}" aria-label="{{ language[1].name }}">{{ code | upcase }}</a>
         {%- endif %}
         {%- endfor %}
       </nav>
